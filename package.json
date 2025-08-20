@@ -1,0 +1,55 @@
+{
+  "name": "auto-css-selector",
+  "displayName": "Auto CSS Selector",
+  "description": "Agrega automáticamente selectores CSS cuando asignas clases o IDs en HTML",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Auto CSS Selector",
+      "properties": {
+        "autoCssSelector.cssFile": {
+          "type": "string",
+          "default": "styles.css",
+          "description": "Nombre del archivo CSS por defecto si no se detecta en el HTML."
+        },
+        "autoCssSelector.debounceDelay": {
+          "type": "number",
+          "default": 1000,
+          "description": "Tiempo de espera después de escribir antes de procesar (ms)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "mocha --require ts-node/register src/test/**/*.test.ts",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^16.18.126",
+    "@types/vscode": "^1.80.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.13.0",
+    "mocha": "^11.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.6.4",
+    "vscode-test": "^1.6.1"
+  }
+}
