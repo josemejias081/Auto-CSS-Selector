@@ -3,6 +3,7 @@
   "displayName": "Auto CSS Selector",
   "description": "Agrega automáticamente selectores CSS cuando asignas clases o IDs en HTML",
   "version": "0.0.1",
+  "publisher": "JoseMejiasDesarrolloWeb",
   "engines": {
     "vscode": "^1.80.0"
   },
