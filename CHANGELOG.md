@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) for recommendation
 - Initial release of the Auto CSS Selector extension.
   - Adds a new CSS selector for HTML classes and IDs.
   - Automatically detects the linked CSS file.
+
+## [0.0.3] - 2025-08-21
+- Compatibilidad ampliada con versiones anteriores de VS Code.
+  - Ahora compatible con VS Code 1.67.2 o superior.
