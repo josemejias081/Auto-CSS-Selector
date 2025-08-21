@@ -13,6 +13,10 @@
     "onLanguage:html"
   ],
   "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josemejias081/Auto-CSS-Selector.git"
+  },
   "contributes": {
     "configuration": {
       "title": "Auto CSS Selector",
