@@ -56,5 +56,6 @@
     "ts-node": "^10.9.2",
     "typescript": "^4.6.4",
     "vscode-test": "^1.6.1"
-  }
+  },
+  "icon": "sources/auto-css-selector.png"
 }
