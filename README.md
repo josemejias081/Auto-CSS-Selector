@@ -53,7 +53,8 @@ La extensión ofrece las siguientes opciones de configuración:
 |-----------|-------------|-------------------|
 | `autoCssSelector.cssFile` | Nombre del archivo CSS por defecto si no se detecta en el HTML | `styles.css` |
 | `autoCssSelector.debounceDelay` | Tiempo de espera después de escribir antes de procesar (ms) | `1000` |
-Para modificar estas configuraciones:
+
+## ⚒️ Para modificar estas configuraciones:
 1. Abre la configuración de VS Code (Ctrl+,)
 2. Busca "Auto CSS Selector"
 3. Modifica los valores según tus preferencias
@@ -142,7 +143,7 @@ Todos los cambios notables en este proyecto se documentarán en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [0.0.1] - 21/08/2025
-### Added
+### Agregado
 - Funcionalidad básica de detección de clases e IDs en HTML
 - Generación automática de selectores CSS
 - Configuración personalizable a través de VS Code settings
